@@ -1,0 +1,17 @@
+//wap to check if a student is passed or failed
+// marks>30 pass marks<=failed.
+#include<stdio.h>
+int main(){
+    int marks;
+    printf("enter marks=");
+    scanf("%d",&marks);
+    if(marks>30){
+        printf("passed\n");
+    }
+    else {
+         printf("failed\n");
+        }
+return 0;
+
+
+    }
